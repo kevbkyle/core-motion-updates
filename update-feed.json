@@ -1,0 +1,7 @@
+{
+  "schema": "coremotion-feed-v1",
+  "version": "6.5.0",
+  "notes": "Fixes sprite export camera orientation, stable eight-direction walk framing, missing/blank frames and clipped sprites; preserves existing characters, animations, foot controls and local AI.",
+  "package_url": "https://github.com/kevbkyle/core-motion-updates/releases/download/v6.5.0/CoreMotion_6_5_0.zip",
+  "sha256": "cee504618fa76ef503129f9aa9d66e00ede0cf78dc121c88ea116c321940f149"
+}
