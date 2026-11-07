@@ -1,7 +1,7 @@
 {
   "schema": "coremotion-feed-v1",
-  "version": "6.5.0",
-  "notes": "Fixes sprite export camera orientation, stable eight-direction walk framing, missing/blank frames and clipped sprites; preserves existing characters, animations, foot controls and local AI.",
-  "package_url": "https://github.com/kevbkyle/core-motion-updates/releases/download/v6.5.0/CoreMotion_6_5_0.zip",
-  "sha256": "cee504618fa76ef503129f9aa9d66e00ede0cf78dc121c88ea116c321940f149"
+  "version": "6.6.0",
+  "notes": "Fixes missing Southwest and other sprite frames caused by skinned-mesh visibility culling. Corrects dynamic bounds during export, preserves all source animations, models, foot settings and preview behavior.",
+  "package_url": "https://github.com/kevbkyle/core-motion-updates/releases/download/v6.6.0/CoreMotion_6_6_0.zip",
+  "sha256": "bf25cc283185c1b7b300670d63953c513dc0bfb9d621fd258ad8fe020073e51a"
 }
