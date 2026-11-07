@@ -1,0 +1,44 @@
+name: Publish verified Core Motion update
+on:
+  workflow_dispatch:
+    inputs:
+      zip_path:
+        description: Path to an update ZIP committed to incoming/
+        required: true
+        default: incoming/CoreMotion_Update.zip
+permissions:
+  contents: write
+concurrency:
+  group: publish-core-motion
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate and release
+        shell: bash
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PACKAGE: ${{ inputs.zip_path }}
+        run: |
+          set -euo pipefail
+          case "$PACKAGE" in incoming/*.zip) ;; *) echo 'Only incoming/*.zip is allowed'; exit 1 ;; esac
+          test -f "$PACKAGE"
+          python scripts/validate_release.py "$PACKAGE" > release-info.json
+          VERSION=$(python -c 'import json;print(json.load(open("release-info.json"))["version"])')
+          TAG="v$VERSION"
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            echo "Refusing to overwrite release $TAG"; exit 1
+          fi
+          mkdir -p dist
+          ASSET="CoreMotion_${VERSION//./_}.zip"
+          cp "$PACKAGE" "dist/$ASSET"
+          URL="https://github.com/kevbkyle/core-motion-updates/releases/download/$TAG/$ASSET"
+          python scripts/validate_release.py "$PACKAGE" --package-url "$URL" --feed-output update-feed.json
+          gh release create "$TAG" "dist/$ASSET" --title "Core Motion $TAG" --notes 'Verified Core Motion Studio update.'
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add update-feed.json
+          git commit -m "Update feed to $TAG"
+          git push
