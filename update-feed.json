@@ -1,7 +1,7 @@
 {
   "schema": "coremotion-feed-v1",
-  "version": "7.13.0",
-  "notes": "Adds explicit Rename Pack for previously imported ZIPs and on-demand 3D preview generation using the loaded character (12 real thumbnails per batch). Removes stick-figure illustrations. Existing retargeting, library imports, and repaired Python loader stay unchanged.",
-  "package_url": "https://github.com/kevbkyle/core-motion-updates/releases/download/v7.13.0/CoreMotion_7_13_0.zip",
-  "sha256": "78f64522fc00eca9ebcc294b864671f4d41d36977de04bd6f6b35b3ff7db9828"
+  "version": "7.14.0",
+  "notes": "KinemIQ motion-only GLB compatibility: reconstruct named animation joint hierarchy for retargeting. Adds on-demand actual looping character preview frames and hover-to-zoom gallery cards; preserves asset loader and existing animation packs.",
+  "package_url": "https://github.com/kevbkyle/core-motion-updates/releases/download/v7.14.0/CoreMotion_7_14_0.zip",
+  "sha256": "5bd2b9d2960301ed89551ee380f8162b57981eefc91d7e95f333014eb516edfc"
 }
