@@ -1,7 +1,7 @@
 {
   "schema": "coremotion-feed-v1",
-  "version": "7.14.0",
-  "notes": "KinemIQ motion-only GLB compatibility: reconstruct named animation joint hierarchy for retargeting. Adds on-demand actual looping character preview frames and hover-to-zoom gallery cards; preserves asset loader and existing animation packs.",
-  "package_url": "https://github.com/kevbkyle/core-motion-updates/releases/download/v7.14.0/CoreMotion_7_14_0.zip",
-  "sha256": "5bd2b9d2960301ed89551ee380f8162b57981eefc91d7e95f333014eb516edfc"
+  "version": "7.15.0",
+  "notes": "Fixes KinemIQ partial T-pose by retargeting motion-only GLBs against the CC0 mannequin skin bind pose instead of each animation\u2019s first frame. Adds initial-pose validation. Preserves existing packs, gallery, previews, AssetFurnace loader and other retargeting.",
+  "package_url": "https://github.com/kevbkyle/core-motion-updates/releases/download/v7.15.0/CoreMotion_7_15_0.zip",
+  "sha256": "5efeabb1bf5dfbe7d294ac72749a32f990c04920063d9a709fce93dd51934c37"
 }
