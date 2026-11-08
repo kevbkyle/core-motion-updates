@@ -1,7 +1,7 @@
 {
   "schema": "coremotion-feed-v1",
-  "version": "7.12.0",
-  "notes": "Adds full-screen visual animation gallery with separate imported-pack folders, search, categories, favorites, and actual 3D preview snapshots after a motion is played. Existing packs receive grouped legacy folders; future ZIP imports retain archive origin. All motion files and cross-character retargeting are preserved.",
-  "package_url": "https://github.com/kevbkyle/core-motion-updates/releases/download/v7.12.0/CoreMotion_7_12_0.zip",
-  "sha256": "e73a149b071c7d7fdcc8173a0216168b11cabb18c9e5b9313543148d6f2bc74a"
+  "version": "7.13.0",
+  "notes": "Adds explicit Rename Pack for previously imported ZIPs and on-demand 3D preview generation using the loaded character (12 real thumbnails per batch). Removes stick-figure illustrations. Existing retargeting, library imports, and repaired Python loader stay unchanged.",
+  "package_url": "https://github.com/kevbkyle/core-motion-updates/releases/download/v7.13.0/CoreMotion_7_13_0.zip",
+  "sha256": "78f64522fc00eca9ebcc294b864671f4d41d36977de04bd6f6b35b3ff7db9828"
 }
