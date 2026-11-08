@@ -1,7 +1,7 @@
 {
   "schema": "coremotion-feed-v1",
-  "version": "7.4.0",
-  "notes": "Adds automatic anatomical matching for compatible 28/52-bone generated humanoids, limb-axis retargeting, repeat-preview caching, left/right correction, and tested export settings. Existing sprite renderer, AI generation, style controls, and advanced timeline stay unchanged.",
-  "package_url": "https://github.com/kevbkyle/core-motion-updates/releases/download/v7.4.0/CoreMotion_7_4_0.zip",
-  "sha256": "34130c8b3e10034b319688a08254745414e729dfe14a18676b1d3de39a0d1507"
+  "version": "7.5.0",
+  "notes": "Improves automatic motion retargeting with sampled full-body movement checks, an optional Three.js SkeletonUtils fallback for mismatched skeleton orientations, and clear warnings instead of accepting barely-moving T-poses. Existing sprite exports, styles, rigs, local AI, and motion files are preserved.",
+  "package_url": "https://github.com/kevbkyle/core-motion-updates/releases/download/v7.5.0/CoreMotion_7_5_0.zip",
+  "sha256": "2a49424174dceca8b193e4e712b08e2c7d3774f6a5d8ac810fbbe823c1b33977"
 }
