@@ -1,7 +1,7 @@
 {
   "schema": "coremotion-feed-v1",
-  "version": "7.2.0",
-  "notes": "Real GLB/FBX motion pack library with ZIP batch import, persistent local collection, searchable per-clip preview and conservative automatic humanoid bone-name retargeting. Existing sprite exporter, asset generation, and manual tools unchanged.",
-  "package_url": "https://github.com/kevbkyle/core-motion-updates/releases/download/v7.2.0/CoreMotion_7_2_0.zip",
-  "sha256": "2086b9201d7d4d4857f0f11777761f6cd5f57ad0e5968070cb093bce93d2ff99"
+  "version": "7.3.0",
+  "notes": "Adds opt-in checksum-verified CC0 starter motion installer from Quaternius and source catalog for more real GLB/FBX packs. Imported animations are saved in the existing local library; no fake motions, no rigging required for compatible humanoids. Existing animation editing and sprite exporting unchanged.",
+  "package_url": "https://github.com/kevbkyle/core-motion-updates/releases/download/v7.3.0/CoreMotion_7_3_0.zip",
+  "sha256": "8f899f017c09fc48a7783f3429ae52f3a6961dc68cab43dd6e332705b56d87e5"
 }
