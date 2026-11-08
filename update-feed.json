@@ -1,7 +1,7 @@
 {
   "schema": "coremotion-feed-v1",
-  "version": "7.3.0",
-  "notes": "Adds opt-in checksum-verified CC0 starter motion installer from Quaternius and source catalog for more real GLB/FBX packs. Imported animations are saved in the existing local library; no fake motions, no rigging required for compatible humanoids. Existing animation editing and sprite exporting unchanged.",
-  "package_url": "https://github.com/kevbkyle/core-motion-updates/releases/download/v7.3.0/CoreMotion_7_3_0.zip",
-  "sha256": "8f899f017c09fc48a7783f3429ae52f3a6961dc68cab43dd6e332705b56d87e5"
+  "version": "7.4.0",
+  "notes": "Adds automatic anatomical matching for compatible 28/52-bone generated humanoids, limb-axis retargeting, repeat-preview caching, left/right correction, and tested export settings. Existing sprite renderer, AI generation, style controls, and advanced timeline stay unchanged.",
+  "package_url": "https://github.com/kevbkyle/core-motion-updates/releases/download/v7.4.0/CoreMotion_7_4_0.zip",
+  "sha256": "34130c8b3e10034b319688a08254745414e729dfe14a18676b1d3de39a0d1507"
 }
