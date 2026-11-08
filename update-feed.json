@@ -1,7 +1,7 @@
 {
   "schema": "coremotion-feed-v1",
-  "version": "7.7.0",
-  "notes": "Fixes imported humanoid motion distortion by preserving the source pelvis, retargeting complete world-space joint motion into the target skeleton, and scaling vertical hip movement correctly. Keeps the existing model, packs, styles, animation timeline and sprite export unchanged.",
-  "package_url": "https://github.com/kevbkyle/core-motion-updates/releases/download/v7.7.0/CoreMotion_7_7_0.zip",
-  "sha256": "47f1c4b8cdc8d9152be8d16a7f3779227453aae985398cc28866ae6e926b7cb0"
+  "version": "7.8.0",
+  "notes": "Adds AI Motion Director with local Ollama natural-language motion edits for arm swing, arm width, swagger, hip sway, lean, bounce and exaggeration; offline instant motion styles and per-clip recipes. Original rigs, animation clips and verified sprite exports remain unchanged.",
+  "package_url": "https://github.com/kevbkyle/core-motion-updates/releases/download/v7.8.0/CoreMotion_7_8_0.zip",
+  "sha256": "a0aa1d9e5358e0ce619f9d9e08de133f36e8c9cd85484000eb89d17d825d33c0"
 }
