@@ -1,7 +1,7 @@
 {
   "schema": "coremotion-feed-v1",
-  "version": "6.6.0",
-  "notes": "Fixes missing Southwest and other sprite frames caused by skinned-mesh visibility culling. Corrects dynamic bounds during export, preserves all source animations, models, foot settings and preview behavior.",
-  "package_url": "https://github.com/kevbkyle/core-motion-updates/releases/download/v6.6.0/CoreMotion_6_6_0.zip",
-  "sha256": "bf25cc283185c1b7b300670d63953c513dc0bfb9d621fd258ad8fe020073e51a"
+  "version": "6.7.0",
+  "notes": "Adds per-animation frame presets (Idle 8, Walk/Run 16, complex combos 24) and editable clip-specific counts in eight-direction batch exports. Keeps the verified V6.6 rendering, framing, foot calibration and local AI unchanged.",
+  "package_url": "https://github.com/kevbkyle/core-motion-updates/releases/download/v6.7.0/CoreMotion_6_7_0.zip",
+  "sha256": "52d24a06e5f9a274372587363e94e3a252b37d3f72ba99f92b750bfc3f00f331"
 }
