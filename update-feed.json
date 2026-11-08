@@ -1,7 +1,7 @@
 {
   "schema": "coremotion-feed-v1",
-  "version": "7.5.0",
-  "notes": "Improves automatic motion retargeting with sampled full-body movement checks, an optional Three.js SkeletonUtils fallback for mismatched skeleton orientations, and clear warnings instead of accepting barely-moving T-poses. Existing sprite exports, styles, rigs, local AI, and motion files are preserved.",
-  "package_url": "https://github.com/kevbkyle/core-motion-updates/releases/download/v7.5.0/CoreMotion_7_5_0.zip",
-  "sha256": "2a49424174dceca8b193e4e712b08e2c7d3774f6a5d8ac810fbbe823c1b33977"
+  "version": "7.6.0",
+  "notes": "Improves humanoid bone-name matching, validates each leg before accepting imported Walk/Run animations, replaces misleading 100% coverage claims, and adds a downloadable bone-only compatibility report. Keeps existing generated GLBs, animation packs, styles, timeline and sprite exports unchanged.",
+  "package_url": "https://github.com/kevbkyle/core-motion-updates/releases/download/v7.6.0/CoreMotion_7_6_0.zip",
+  "sha256": "86776265a789398ff9dbf4d6d32474d23a1785f1126777b7d4ba219e0dc6074e"
 }
