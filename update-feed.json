@@ -1,7 +1,7 @@
 {
   "schema": "coremotion-feed-v1",
-  "version": "7.6.0",
-  "notes": "Improves humanoid bone-name matching, validates each leg before accepting imported Walk/Run animations, replaces misleading 100% coverage claims, and adds a downloadable bone-only compatibility report. Keeps existing generated GLBs, animation packs, styles, timeline and sprite exports unchanged.",
-  "package_url": "https://github.com/kevbkyle/core-motion-updates/releases/download/v7.6.0/CoreMotion_7_6_0.zip",
-  "sha256": "86776265a789398ff9dbf4d6d32474d23a1785f1126777b7d4ba219e0dc6074e"
+  "version": "7.7.0",
+  "notes": "Fixes imported humanoid motion distortion by preserving the source pelvis, retargeting complete world-space joint motion into the target skeleton, and scaling vertical hip movement correctly. Keeps the existing model, packs, styles, animation timeline and sprite export unchanged.",
+  "package_url": "https://github.com/kevbkyle/core-motion-updates/releases/download/v7.7.0/CoreMotion_7_7_0.zip",
+  "sha256": "47f1c4b8cdc8d9152be8d16a7f3779227453aae985398cc28866ae6e926b7cb0"
 }
