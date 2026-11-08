@@ -1,7 +1,7 @@
 {
   "schema": "coremotion-feed-v1",
-  "version": "7.10.0",
-  "notes": "Improves animation retarget compatibility for different humanoid skeletons, reports missing anatomy, and reduces AI motion T-pose/startup snapping using gait-aware, bounded modifications. Preserves the fixed AssetFurnace loader and original GLB clips.",
-  "package_url": "https://github.com/kevbkyle/core-motion-updates/releases/download/v7.10.0/CoreMotion_7_10_0.zip",
-  "sha256": "45424ca3818e4edcdd61d23778d0f1567cc3e1665c5faf451f756cc861da5258"
+  "version": "7.11.0",
+  "notes": "Adds curated CC0 pack discovery (Quaternius UAL2, KayKit, KinemIQ 35-clip sampler), source/license guidance, installed-pack filtering, pack-name search, and incremental browsing of larger clip libraries. Imports remain user initiated; no unverified motion assets are bundled. Preserves v7.10 humanoid retargeting and the repaired AssetFurnace loader.",
+  "package_url": "https://github.com/kevbkyle/core-motion-updates/releases/download/v7.11.0/CoreMotion_7_11_0.zip",
+  "sha256": "193ef4061c4a4dbe136ed87b19ac2eb450fde0ede85617e0b3d15f40ce4ee0e8"
 }
