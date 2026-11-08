@@ -1,7 +1,7 @@
 {
   "schema": "coremotion-feed-v1",
-  "version": "7.9.0",
-  "notes": "Adds hold-to-compare original and one-step undo to the existing AI Motion Director. Preserves source GLB, animation clips, sprite exports, and the fixed AssetFurnace backend.",
-  "package_url": "https://github.com/kevbkyle/core-motion-updates/releases/download/v7.9.0/CoreMotion_7_9_0.zip",
-  "sha256": "e90bd6b319ed8a735c7b0b5ccf8c58938938a521af8f4fa4bc78740665d6a4aa"
+  "version": "7.10.0",
+  "notes": "Improves animation retarget compatibility for different humanoid skeletons, reports missing anatomy, and reduces AI motion T-pose/startup snapping using gait-aware, bounded modifications. Preserves the fixed AssetFurnace loader and original GLB clips.",
+  "package_url": "https://github.com/kevbkyle/core-motion-updates/releases/download/v7.10.0/CoreMotion_7_10_0.zip",
+  "sha256": "45424ca3818e4edcdd61d23778d0f1567cc3e1665c5faf451f756cc861da5258"
 }
