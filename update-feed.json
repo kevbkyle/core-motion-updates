@@ -1,7 +1,7 @@
 {
   "schema": "coremotion-feed-v1",
-  "version": "7.0.0",
-  "notes": "V7.0 interactive bone-joint posing, reusable poses, pose mirroring, user-authored quaternion-keyframe animation clips that participate in timelines/batch sprite exports, and optional upper-body pose layering. Keeps V6.9 timeline, stable frame export and built-in updater.",
-  "package_url": "https://github.com/kevbkyle/core-motion-updates/releases/download/v7.0.0/CoreMotion_7_0_0.zip",
-  "sha256": "c72f6fac27b5c386e79740e88f646f8ea63082b18daff3a9e0cad9bdfc763ddd"
+  "version": "7.1.0",
+  "notes": "Guided image-to-sprite production workflow, live searchable animation catalog (loaded clips and local AI engine moves), simplified mode with optional advanced rigging; preserves exporter and AI bridge.",
+  "package_url": "https://github.com/kevbkyle/core-motion-updates/releases/download/v7.1.0/CoreMotion_7_1_0.zip",
+  "sha256": "bbccfb7fe96ff4935d56aa432485e5a5a38a73dee0b1d8bdee72e4205f1fa9bd"
 }
