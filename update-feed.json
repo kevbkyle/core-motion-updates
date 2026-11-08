@@ -1,7 +1,7 @@
 {
   "schema": "coremotion-feed-v1",
-  "version": "7.11.0",
-  "notes": "Adds curated CC0 pack discovery (Quaternius UAL2, KayKit, KinemIQ 35-clip sampler), source/license guidance, installed-pack filtering, pack-name search, and incremental browsing of larger clip libraries. Imports remain user initiated; no unverified motion assets are bundled. Preserves v7.10 humanoid retargeting and the repaired AssetFurnace loader.",
-  "package_url": "https://github.com/kevbkyle/core-motion-updates/releases/download/v7.11.0/CoreMotion_7_11_0.zip",
-  "sha256": "193ef4061c4a4dbe136ed87b19ac2eb450fde0ede85617e0b3d15f40ce4ee0e8"
+  "version": "7.12.0",
+  "notes": "Adds full-screen visual animation gallery with separate imported-pack folders, search, categories, favorites, and actual 3D preview snapshots after a motion is played. Existing packs receive grouped legacy folders; future ZIP imports retain archive origin. All motion files and cross-character retargeting are preserved.",
+  "package_url": "https://github.com/kevbkyle/core-motion-updates/releases/download/v7.12.0/CoreMotion_7_12_0.zip",
+  "sha256": "e73a149b071c7d7fdcc8173a0216168b11cabb18c9e5b9313543148d6f2bc74a"
 }
