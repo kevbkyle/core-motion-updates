@@ -1,7 +1,7 @@
 {
   "schema": "coremotion-feed-v1",
-  "version": "6.8.0",
-  "notes": "Adds a searchable favorite motion library, non-destructive named timing variations, and a sequential motion timeline preview with local character-specific saves and JSON recipe export. Keeps the proven V6.7 sprite exporter, foot controls, and AI generation unchanged.",
-  "package_url": "https://github.com/kevbkyle/core-motion-updates/releases/download/v6.8.0/CoreMotion_6_8_0.zip",
-  "sha256": "1e58b58c6824062aebf8dd754f034aeffbe2b998efc4e0914b7304196713747c"
+  "version": "6.9.0",
+  "notes": "V6.9 visual drag-and-drop timeline, per-clip speed curves and held-pose transitions, non-destructive bone rotation keyframes, and full eight-direction sequence sprite ZIP export. Preserves V6.8 workspace and existing individual/batch exporters.",
+  "package_url": "https://github.com/kevbkyle/core-motion-updates/releases/download/v6.9.0/CoreMotion_6_9_0.zip",
+  "sha256": "b8df432678c712936a723f56e327a3e40a98028883d84ca59a6802c28e7eec5a"
 }
