@@ -1,7 +1,7 @@
 {
   "schema": "coremotion-feed-v1",
-  "version": "7.1.0",
-  "notes": "Guided image-to-sprite production workflow, live searchable animation catalog (loaded clips and local AI engine moves), simplified mode with optional advanced rigging; preserves exporter and AI bridge.",
-  "package_url": "https://github.com/kevbkyle/core-motion-updates/releases/download/v7.1.0/CoreMotion_7_1_0.zip",
-  "sha256": "bbccfb7fe96ff4935d56aa432485e5a5a38a73dee0b1d8bdee72e4205f1fa9bd"
+  "version": "7.2.0",
+  "notes": "Real GLB/FBX motion pack library with ZIP batch import, persistent local collection, searchable per-clip preview and conservative automatic humanoid bone-name retargeting. Existing sprite exporter, asset generation, and manual tools unchanged.",
+  "package_url": "https://github.com/kevbkyle/core-motion-updates/releases/download/v7.2.0/CoreMotion_7_2_0.zip",
+  "sha256": "2086b9201d7d4d4857f0f11777761f6cd5f57ad0e5968070cb093bce93d2ff99"
 }
