@@ -1,7 +1,7 @@
 {
   "schema": "coremotion-feed-v1",
-  "version": "7.19.0",
-  "notes": "Fix KayKit GLB skeleton names sanitized without separators (upperarmr/upperlegl/lowerlegr/footr). Preserve KinemIQ retargeting, existing import packs, and hover previews.",
-  "package_url": "https://github.com/kevbkyle/core-motion-updates/releases/download/v7.19.0/CoreMotion_7_19_0.zip",
-  "sha256": "178583761b83202be3ff6012e4abf52849a4c5126727314130eaeacca33a1834"
+  "version": "7.20.0",
+  "notes": "KayKit walking clips: apply bind-relative local limb pose corrections to arms and legs, preserve original hip translation, and expose correction diagnostics. No change to KinemIQ, other KayKit actions, the model loader, or hover gallery.",
+  "package_url": "https://github.com/kevbkyle/core-motion-updates/releases/download/v7.20.0/CoreMotion_7_20_0.zip",
+  "sha256": "7e924b41ca8b1daff6a731c601db41da09883a3e1d62c063039550860ace803f"
 }
