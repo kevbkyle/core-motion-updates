@@ -1,7 +1,7 @@
 {
   "schema": "coremotion-feed-v1",
-  "version": "7.24.10",
-  "notes": "Fix disabled Auto-Rig Current Model control; support explicit in-scene rebuild of ineffective existing rigs with confirmation; check shoulder/leg skin weights; make auto-rig failure visible; keep existing AssetFurnace loader and animation library.",
-  "package_url": "https://github.com/kevbkyle/core-motion-updates/releases/download/v7.24.10/CoreMotion_7_24_10.zip",
-  "sha256": "a64c451c7f5c573ac3eb2c9f29bf7869c30d08ed5d7463d543205059c87edfbb"
+  "version": "7.24.11",
+  "notes": "Recognize and preserve AssetFurnace SkinTokens AI-rigged 22-bone humanoids from actual GLB topology; do not replace existing AI skeleton with geometry auto-rig; report rig mapping in existing character status. Existing editor, auto-rig fallback and motion libraries retained.",
+  "package_url": "https://github.com/kevbkyle/core-motion-updates/releases/download/v7.24.11/CoreMotion_7_24_11.zip",
+  "sha256": "563359af85e89bb92042ffc9a412d70560db45a0bac79ae2090b6f071d74f1de"
 }
