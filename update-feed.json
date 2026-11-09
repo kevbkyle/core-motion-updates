@@ -1,7 +1,7 @@
 {
   "schema": "coremotion-feed-v1",
-  "version": "7.16.0",
-  "notes": "Adds grouped pack browser favorites and batch-generated 16-frame real moving previews; hover plays and zooms previews. Retains all v7.15 retargeting and AssetFurnace loading.",
-  "package_url": "https://github.com/kevbkyle/core-motion-updates/releases/download/v7.16.0/CoreMotion_7_16_0.zip",
-  "sha256": "fb37ecd2e09f4d36baf6aa0d9736a991d257163bd5091ad33b693a70fe924c62"
+  "version": "7.17.0",
+  "notes": "Adds KayKit GLB Medium/Large bind-pose aware retargeting, clearer attach errors, duplicate FBX suppression during dual-format import, and true floating animated hover magnifier. Preserves v7.15 KinemIQ and existing models.",
+  "package_url": "https://github.com/kevbkyle/core-motion-updates/releases/download/v7.17.0/CoreMotion_7_17_0.zip",
+  "sha256": "bd52f770a0fe287904104e3487c68e40b6aad8fc02929b013a0dff618ff84497"
 }
