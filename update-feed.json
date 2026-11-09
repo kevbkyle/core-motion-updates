@@ -1,7 +1,7 @@
 {
   "schema": "coremotion-feed-v1",
-  "version": "7.21.0",
-  "notes": "KayKit walks only: anatomical-axis calibrated world-space retargeting rather than local-axis delta transfer. Preserve all other retargeting, loading, gallery behavior, and hip translation. Adds arm/leg pose diagnostics.",
-  "package_url": "https://github.com/kevbkyle/core-motion-updates/releases/download/v7.21.0/CoreMotion_7_21_0.zip",
-  "sha256": "f176028f4a89c6f8a8a9fe2779da8082acc703f770b12810ffc03b014d89f52d"
+  "version": "7.22.0",
+  "notes": "Focused sidebar workspaces (Character, Animations, AI Director, Export), editable natural-language prompt examples, and explicitly labeled offline prompt-to-style controls. Preserves v7.21 animation retargeting and existing Ollama AI API.",
+  "package_url": "https://github.com/kevbkyle/core-motion-updates/releases/download/v7.22.0/CoreMotion_7_22_0.zip",
+  "sha256": "d99402586f784c8ad71471d9895315e36a7bbc4cb233d9783f333effcb93f742"
 }
