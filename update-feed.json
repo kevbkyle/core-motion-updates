@@ -1,7 +1,7 @@
 {
   "schema": "coremotion-feed-v1",
-  "version": "7.24.4",
-  "notes": "v7.24 correction: improve geometry-based auto-rig arm fitting and arm/torso skin weights for A/T poses; remove AssetFurnace First Animation UI and default to rigged model generation without baked first motion. Preserves existing image-to-3D workflow and working animation library.",
-  "package_url": "https://github.com/kevbkyle/core-motion-updates/releases/download/v7.24.4/CoreMotion_7_24_4.zip",
-  "sha256": "1cf0e46b8d67f2e05c3f75618a3d33bad2016452dc56782b77a027e0d413e7e3"
+  "version": "7.24.5",
+  "notes": "v7.24.5: improves lower-arm skinning on A-pose models; adds confirmed permanent deletion of selected saved AssetFurnace character beside existing dropdown via upstream AssetFurnace delete-plan and delete API. Preserves existing image-to-3D and animation flows.",
+  "package_url": "https://github.com/kevbkyle/core-motion-updates/releases/download/v7.24.5/CoreMotion_7_24_5.zip",
+  "sha256": "c90be6cd1d9a37a243b86efb4c6b35300c45a299597ceec3b606d557b308984d"
 }
