@@ -1,7 +1,7 @@
 {
   "schema": "coremotion-feed-v1",
-  "version": "7.24.9",
-  "notes": "Add Auto-Rig Current Model beside existing AssetFurnace Load into Editor. Reuse in-scene model and existing geometry-based rig fitter, support safe rebuild for current-session auto-rigs, test deformation and report precise status. No new uploader or rigging algorithm changes.",
-  "package_url": "https://github.com/kevbkyle/core-motion-updates/releases/download/v7.24.9/CoreMotion_7_24_9.zip",
-  "sha256": "422ac5674407e6156ccd16eb12d1a7f314cbb1929a64f4150b1470f5bcbce7da"
+  "version": "7.24.10",
+  "notes": "Fix disabled Auto-Rig Current Model control; support explicit in-scene rebuild of ineffective existing rigs with confirmation; check shoulder/leg skin weights; make auto-rig failure visible; keep existing AssetFurnace loader and animation library.",
+  "package_url": "https://github.com/kevbkyle/core-motion-updates/releases/download/v7.24.10/CoreMotion_7_24_10.zip",
+  "sha256": "a64c451c7f5c573ac3eb2c9f29bf7869c30d08ed5d7463d543205059c87edfbb"
 }
