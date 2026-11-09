@@ -1,7 +1,7 @@
 {
   "schema": "coremotion-feed-v1",
-  "version": "7.23.0",
-  "notes": "Core Motion update",
-  "package_url": "https://github.com/kevbkyle/core-motion-updates/releases/download/v7.23.0/CoreMotion_7_23_0.zip",
-  "sha256": "b06f4240feb7957d9b3231612fe4cde0eb7402216ba9f312b79c405eab599625"
+  "version": "7.24.2",
+  "notes": "Corrected v7.24 unified GitHub installation: supports updating directly from v7.21 or later, including skipped v7.22/v7.23; built-in geometry-based humanoid auto-rigging and GLB export, no separate service.",
+  "package_url": "https://github.com/kevbkyle/core-motion-updates/releases/download/v7.24.2/CoreMotion_7_24_2.zip",
+  "sha256": "e21aff6ab7e7946a43b3ad1e1ba55ea32e96e2830dd70f51ccd87b27a6518a8e"
 }
