@@ -1,7 +1,7 @@
 {
   "schema": "coremotion-feed-v1",
-  "version": "7.22.0",
-  "notes": "Focused sidebar workspaces (Character, Animations, AI Director, Export), editable natural-language prompt examples, and explicitly labeled offline prompt-to-style controls. Preserves v7.21 animation retargeting and existing Ollama AI API.",
-  "package_url": "https://github.com/kevbkyle/core-motion-updates/releases/download/v7.22.0/CoreMotion_7_22_0.zip",
-  "sha256": "d99402586f784c8ad71471d9895315e36a7bbc4cb233d9783f333effcb93f742"
+  "version": "7.25.0",
+  "notes": "Single GitHub updater ZIP: built-in browser-local humanoid auto-rigging, actual skinned GLB export and motion validation; no bridge kit required. Geometry-based prototype, not neural AI.",
+  "package_url": "https://github.com/kevbkyle/core-motion-updates/releases/download/v7.25.0/CoreMotion_7_25_0.zip",
+  "sha256": "76c402007bc6136712b1e76d31d8c6b536f98523daf9226a8d82b66688a52946"
 }
