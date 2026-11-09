@@ -1,7 +1,7 @@
 {
   "schema": "coremotion-feed-v1",
-  "version": "7.24.8",
-  "notes": "Focused repair: trash icon directly beside AssetFurnace character dropdown, deletion always actionable and confirmed through AssetFurnace delete API with clear failure messages; distinguish auto-rig skinning failures from animation-retargeting failures on newly generated models. No rigging algorithm changes.",
-  "package_url": "https://github.com/kevbkyle/core-motion-updates/releases/download/v7.24.8/CoreMotion_7_24_8.zip",
-  "sha256": "6c49e96429b576592311243aecd5accaa99fc3067b70108f6480150031001d86"
+  "version": "7.24.9",
+  "notes": "Add Auto-Rig Current Model beside existing AssetFurnace Load into Editor. Reuse in-scene model and existing geometry-based rig fitter, support safe rebuild for current-session auto-rigs, test deformation and report precise status. No new uploader or rigging algorithm changes.",
+  "package_url": "https://github.com/kevbkyle/core-motion-updates/releases/download/v7.24.9/CoreMotion_7_24_9.zip",
+  "sha256": "422ac5674407e6156ccd16eb12d1a7f314cbb1929a64f4150b1470f5bcbce7da"
 }
