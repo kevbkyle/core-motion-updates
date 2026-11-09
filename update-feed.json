@@ -1,7 +1,7 @@
 {
   "schema": "coremotion-feed-v1",
-  "version": "7.17.0",
-  "notes": "Adds KayKit GLB Medium/Large bind-pose aware retargeting, clearer attach errors, duplicate FBX suppression during dual-format import, and true floating animated hover magnifier. Preserves v7.15 KinemIQ and existing models.",
-  "package_url": "https://github.com/kevbkyle/core-motion-updates/releases/download/v7.17.0/CoreMotion_7_17_0.zip",
-  "sha256": "bd52f770a0fe287904104e3487c68e40b6aad8fc02929b013a0dff618ff84497"
+  "version": "7.18.0",
+  "notes": "KayKit dual-format import compatibility: prefer already-imported GLB over duplicate FBX for attach/preview, hide redundant FBX gallery cards, show GLB source format, and provide exact rig joint diagnostics; preserve existing KinemIQ and character loaders.",
+  "package_url": "https://github.com/kevbkyle/core-motion-updates/releases/download/v7.18.0/CoreMotion_7_18_0.zip",
+  "sha256": "9ace4553771688d2bdc69efa10312ea4b612dafadefa208216cf70ed2e2d33dc"
 }
