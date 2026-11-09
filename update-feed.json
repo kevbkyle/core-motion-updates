@@ -1,7 +1,7 @@
 {
   "schema": "coremotion-feed-v1",
-  "version": "7.24.6",
-  "notes": "Restores the previously working AssetFurnace Load into Editor GLB resolver accidentally overwritten in v7.24.5. Preserves saved-character deletion, v7.24.5 arm rigging, all model generation and animation features.",
-  "package_url": "https://github.com/kevbkyle/core-motion-updates/releases/download/v7.24.6/CoreMotion_7_24_6.zip",
-  "sha256": "6d96f6efe6439591c9d7ad21a6b00c6cacb40972efb300dd6321cb54288a7264"
+  "version": "7.24.7",
+  "notes": "Fix AssetFurnace model selection: prefer a real skinned visible GLB over model-info unrigged preview or motion-only GLB. Synchronize saved-character selection with Delete selected; preserve the confirmation and safe upstream deletion API. Preserve auto-rig, motion library, UI and generation flow.",
+  "package_url": "https://github.com/kevbkyle/core-motion-updates/releases/download/v7.24.7/CoreMotion_7_24_7.zip",
+  "sha256": "ab67e08f80ce07cec4177b12ffb89df65969908a81f5bfced0f6b527ab099f60"
 }
