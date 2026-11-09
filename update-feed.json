@@ -1,7 +1,7 @@
 {
   "schema": "coremotion-feed-v1",
-  "version": "7.24.7",
-  "notes": "Fix AssetFurnace model selection: prefer a real skinned visible GLB over model-info unrigged preview or motion-only GLB. Synchronize saved-character selection with Delete selected; preserve the confirmation and safe upstream deletion API. Preserve auto-rig, motion library, UI and generation flow.",
-  "package_url": "https://github.com/kevbkyle/core-motion-updates/releases/download/v7.24.7/CoreMotion_7_24_7.zip",
-  "sha256": "ab67e08f80ce07cec4177b12ffb89df65969908a81f5bfced0f6b527ab099f60"
+  "version": "7.24.8",
+  "notes": "Focused repair: trash icon directly beside AssetFurnace character dropdown, deletion always actionable and confirmed through AssetFurnace delete API with clear failure messages; distinguish auto-rig skinning failures from animation-retargeting failures on newly generated models. No rigging algorithm changes.",
+  "package_url": "https://github.com/kevbkyle/core-motion-updates/releases/download/v7.24.8/CoreMotion_7_24_8.zip",
+  "sha256": "6c49e96429b576592311243aecd5accaa99fc3067b70108f6480150031001d86"
 }
