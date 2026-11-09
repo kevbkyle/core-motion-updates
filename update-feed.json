@@ -1,7 +1,7 @@
 {
   "schema": "coremotion-feed-v1",
-  "version": "7.24.5",
-  "notes": "v7.24.5: improves lower-arm skinning on A-pose models; adds confirmed permanent deletion of selected saved AssetFurnace character beside existing dropdown via upstream AssetFurnace delete-plan and delete API. Preserves existing image-to-3D and animation flows.",
-  "package_url": "https://github.com/kevbkyle/core-motion-updates/releases/download/v7.24.5/CoreMotion_7_24_5.zip",
-  "sha256": "c90be6cd1d9a37a243b86efb4c6b35300c45a299597ceec3b606d557b308984d"
+  "version": "7.24.6",
+  "notes": "Restores the previously working AssetFurnace Load into Editor GLB resolver accidentally overwritten in v7.24.5. Preserves saved-character deletion, v7.24.5 arm rigging, all model generation and animation features.",
+  "package_url": "https://github.com/kevbkyle/core-motion-updates/releases/download/v7.24.6/CoreMotion_7_24_6.zip",
+  "sha256": "6d96f6efe6439591c9d7ad21a6b00c6cacb40972efb300dd6321cb54288a7264"
 }
