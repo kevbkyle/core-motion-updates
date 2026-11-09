@@ -1,7 +1,7 @@
 {
   "schema": "coremotion-feed-v1",
-  "version": "7.18.0",
-  "notes": "KayKit dual-format import compatibility: prefer already-imported GLB over duplicate FBX for attach/preview, hide redundant FBX gallery cards, show GLB source format, and provide exact rig joint diagnostics; preserve existing KinemIQ and character loaders.",
-  "package_url": "https://github.com/kevbkyle/core-motion-updates/releases/download/v7.18.0/CoreMotion_7_18_0.zip",
-  "sha256": "9ace4553771688d2bdc69efa10312ea4b612dafadefa208216cf70ed2e2d33dc"
+  "version": "7.19.0",
+  "notes": "Fix KayKit GLB skeleton names sanitized without separators (upperarmr/upperlegl/lowerlegr/footr). Preserve KinemIQ retargeting, existing import packs, and hover previews.",
+  "package_url": "https://github.com/kevbkyle/core-motion-updates/releases/download/v7.19.0/CoreMotion_7_19_0.zip",
+  "sha256": "178583761b83202be3ff6012e4abf52849a4c5126727314130eaeacca33a1834"
 }
