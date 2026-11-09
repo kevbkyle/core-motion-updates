@@ -1,7 +1,7 @@
 {
   "schema": "coremotion-feed-v1",
-  "version": "7.15.0",
-  "notes": "Fixes KinemIQ partial T-pose by retargeting motion-only GLBs against the CC0 mannequin skin bind pose instead of each animation\u2019s first frame. Adds initial-pose validation. Preserves existing packs, gallery, previews, AssetFurnace loader and other retargeting.",
-  "package_url": "https://github.com/kevbkyle/core-motion-updates/releases/download/v7.15.0/CoreMotion_7_15_0.zip",
-  "sha256": "5efeabb1bf5dfbe7d294ac72749a32f990c04920063d9a709fce93dd51934c37"
+  "version": "7.16.0",
+  "notes": "Adds grouped pack browser favorites and batch-generated 16-frame real moving previews; hover plays and zooms previews. Retains all v7.15 retargeting and AssetFurnace loading.",
+  "package_url": "https://github.com/kevbkyle/core-motion-updates/releases/download/v7.16.0/CoreMotion_7_16_0.zip",
+  "sha256": "fb37ecd2e09f4d36baf6aa0d9736a991d257163bd5091ad33b693a70fe924c62"
 }
