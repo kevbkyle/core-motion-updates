@@ -1,7 +1,7 @@
 {
   "schema": "coremotion-feed-v1",
-  "version": "7.24.3",
-  "notes": "Corrects v7.24 Auto-Rig integration: removes duplicate Auto-Rig upload panel and runs automatic geometry-based humanoid fitting on unrigged models from existing AssetFurnace/TripoSR/import loading. Preserves rigged models and existing motion library. No separate service; not neural rigging.",
-  "package_url": "https://github.com/kevbkyle/core-motion-updates/releases/download/v7.24.3/CoreMotion_7_24_3.zip",
-  "sha256": "2700280d754648fb6a1211fe8db6da8817ccf3255c4523384383386d1893d589"
+  "version": "7.24.4",
+  "notes": "v7.24 correction: improve geometry-based auto-rig arm fitting and arm/torso skin weights for A/T poses; remove AssetFurnace First Animation UI and default to rigged model generation without baked first motion. Preserves existing image-to-3D workflow and working animation library.",
+  "package_url": "https://github.com/kevbkyle/core-motion-updates/releases/download/v7.24.4/CoreMotion_7_24_4.zip",
+  "sha256": "1cf0e46b8d67f2e05c3f75618a3d33bad2016452dc56782b77a027e0d413e7e3"
 }
