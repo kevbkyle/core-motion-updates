@@ -1,7 +1,7 @@
 {
   "schema": "coremotion-feed-v1",
-  "version": "7.25.0",
-  "notes": "Single GitHub updater ZIP: built-in browser-local humanoid auto-rigging, actual skinned GLB export and motion validation; no bridge kit required. Geometry-based prototype, not neural AI.",
-  "package_url": "https://github.com/kevbkyle/core-motion-updates/releases/download/v7.25.0/CoreMotion_7_25_0.zip",
-  "sha256": "76c402007bc6136712b1e76d31d8c6b536f98523daf9226a8d82b66688a52946"
+  "version": "7.24.1",
+  "notes": "Revised v7.24 single-package GitHub delivery: built-in browser-local humanoid auto-rigging, skinned GLB export and rig test. No separate bridge ZIP. Geometry-based prototype, not neural AI.",
+  "package_url": "https://github.com/kevbkyle/core-motion-updates/releases/download/v7.24.1/CoreMotion_7_24_1.zip",
+  "sha256": "82a527c3d600d4f49dbbe4f3b2f8fe038dfbcb13dd4e551cf572df3135910671"
 }
